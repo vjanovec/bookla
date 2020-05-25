@@ -1,6 +1,6 @@
-import React from 'react';
 import logo from "./logo_bookla.png";
-
+import "./style.scss";
+import React from 'react';
 
 const Footer = () => {
     return(
