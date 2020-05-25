@@ -1,7 +1,7 @@
 ---
 templateKey: bookla-page
 title: Napište a vydejte vlastní knihu
-image: /img/samonakladatel.png
+image: ./samonakladatel.png
 heading: Great coffee with a conscience
 section1:
   title: Why Kaldi
