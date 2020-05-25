@@ -25,7 +25,7 @@ export const BooklaPageTemplate = ({
                   </div>
                 </Col>
                 <Col xl={6} lg={6} md={6} sm={12} >
-                  <img src={!!image.childImageSharp ? image.childImageSharp.fluid.src : image} className="main-ilustration"></img>
+                  <img src={image} className="main-ilustration"></img>
                 </Col>
               </Row>
               <h3 className="secondary-heading mb-5">{heading}</h3>
