@@ -48,6 +48,7 @@ const TemplateWrapper = ({ children }) => {
           property="og:image"
           content={`${withPrefix("/")}img/og-image.jpg`}
         />
+        <script src="https://kit.fontawesome.com/de2b97e9cc.js" crossorigin="anonymous"></script>
       </Helmet>
 
       <div className="page">

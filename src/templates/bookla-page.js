@@ -20,7 +20,11 @@ export const BooklaPageTemplate = ({
                   <div className="main-info">
                     <h1 className="main-heading">
                       {title}<br></br>
-                      <button className="start-button">Přejít na Blog</button>
+                      {/* <button className="start-button"></button> */}
+                      
+                      <button className="start-button">
+                    <Link to="/blog" className="button-link">Chci zjistit jak</Link>
+                    </button>
                     </h1>
                   </div>
                 </Col>
@@ -38,7 +42,10 @@ export const BooklaPageTemplate = ({
                     <h3 className="article-description">
                       {section1.description}
                     </h3>
-                    <button className="article-button">Chci zjistit jak</button>
+                    <button className="article-button">
+                    <Link to="/blog" className="button-link">Chci zjistit jak</Link>
+                    </button>
+                    
                   </div>
                 </Col>
               <Col xl={6} lg={6} md={6} sm={12} className="order-sm-12 order-xs-12 order-lg-1 mt-auto mb-auto justify-content-center d-flex">
@@ -56,7 +63,9 @@ export const BooklaPageTemplate = ({
                     <h3 className="article-description">
                     {section2.description}
                     </h3>
-                    <button className="article-button">Chci zjistit jak</button>
+                    <button className="article-button">
+                    <Link to="/blog" className="button-link">Chci zjistit jak</Link>
+                    </button>
                   </div>
                 </Col>
               <Col xl={6} lg={6} md={6} sm={12} className="mt-auto mb-auto justify-content-center d-flex">
@@ -72,7 +81,9 @@ export const BooklaPageTemplate = ({
                     <h3 className="article-description">
                       {section3.description}
                     </h3>
-                    <button className="article-button">Chci zjistit jak</button>
+                    <button className="article-button">
+                    <Link to="/blog" className="button-link">Chci zjistit jak</Link>
+                    </button>
                   </div>
                 </Col>
               <Col xl={6} lg={6} md={6} sm={12} className="order-sm-12 order-xs-12 order-md-12 order-lg-1 mt-auto mb-auto justify-content-center d-flex">
