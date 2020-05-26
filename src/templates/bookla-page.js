@@ -25,13 +25,13 @@ export const BooklaPageTemplate = ({
                   </div>
                 </Col>
                 <Col xl={6} lg={6} md={6} sm={12} >
-                  <img src={image} className="main-ilustration"></img>
+                  <img src={!!image.childImageSharp ? image.childImageSharp.fluid.src : image} className="main-ilustration"></img>
                 </Col>
               </Row>
               <h3 className="secondary-heading mb-5">{heading}</h3>
               <Row>
               <Col xl={6} lg={6} md={6} sm={12} className="order-sm-12 order-lg-1">
-                  <img src={section1.image} className="main-ilustration"></img>
+                  <img src={!!section1.image.childImageSharp ? section1.image.childImageSharp.fluid.src : section1.image} className="main-ilustration"></img>
                 </Col>
                 <Col xl={6} lg={6} md={6} sm={12} className="order-sm-1 order-lg-12 justify-content-center d-flex">
                   <div className="article-thumbnail">
@@ -59,12 +59,12 @@ export const BooklaPageTemplate = ({
                   </div>
                 </Col>
               <Col xl={6} lg={6} md={6} sm={12}>
-                  <img src={section2.image} className="main-ilustration"></img>
+                  <img src={!!section2.image.childImageSharp ? section2.image.childImageSharp.fluid.src : section2.image} className="main-ilustration"></img>
               </Col>
               </Row>
               <Row>
               <Col xl={6} lg={6} md={6} sm={12} className="order-sm-12 order-lg-1">
-                  <img src={section3.image} className="main-ilustration"></img>
+                  <img src={!!section3.image.childImageSharp ? section3.image.childImageSharp.fluid.src : section3.image} className="main-ilustration"></img>
               </Col>
               <Col xl={6} lg={6} md={6} sm={12} className="order-sm-1 order-lg-12 justify-content-center d-flex">
                   <div className="article-thumbnail">
@@ -128,7 +128,7 @@ export const pageQuery = graphql`
         title
         image {
           childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
+            fluid(maxWidth: 500, quality: 50) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -138,7 +138,7 @@ export const pageQuery = graphql`
           title
           image {
             childImageSharp {
-              fluid(maxWidth: 2048, quality: 100) {
+              fluid(maxWidth: 500, quality: 50) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -150,7 +150,7 @@ export const pageQuery = graphql`
           title
           image {
             childImageSharp {
-              fluid(maxWidth: 2048, quality: 100) {
+              fluid(maxWidth: 500, quality: 50) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -162,7 +162,7 @@ export const pageQuery = graphql`
           title
           image {
             childImageSharp {
-              fluid(maxWidth: 2048, quality: 100) {
+              fluid(maxWidth: 500, quality: 50) {
                 ...GatsbyImageSharpFluid
               }
             }
