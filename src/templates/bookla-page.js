@@ -24,16 +24,13 @@ export const BooklaPageTemplate = ({
                     </h1>
                   </div>
                 </Col>
-                <Col xl={6} lg={6} md={6} sm={12} >
+                <Col xl={6} lg={6} md={6} sm={12} className="mt-auto mb-auto justify-content-center d-flex">
                   <img src={!!image.childImageSharp ? image.childImageSharp.fluid.src : image} className="main-ilustration"></img>
                 </Col>
               </Row>
               <h3 className="secondary-heading mb-5">{heading}</h3>
               <Row>
-              <Col xl={6} lg={6} md={6} sm={12} className="order-sm-12 order-lg-1">
-                  <img src={!!section1.image.childImageSharp ? section1.image.childImageSharp.fluid.src : section1.image} className="main-ilustration"></img>
-                </Col>
-                <Col xl={6} lg={6} md={6} sm={12} className="order-sm-1 order-lg-12 justify-content-center d-flex">
+              <Col xl={6} lg={6} md={6} sm={12} className="order-sm-1 order-xs-1 order-lg-12 mt-auto mb-auto justify-content-center d-flex">
                   <div className="article-thumbnail">
                     <h1 className="secondary-heading">
                       {section1.title}
@@ -44,9 +41,13 @@ export const BooklaPageTemplate = ({
                     <button className="article-button">Chci zjistit jak</button>
                   </div>
                 </Col>
+              <Col xl={6} lg={6} md={6} sm={12} className="order-sm-12 order-xs-12 order-lg-1 mt-auto mb-auto justify-content-center d-flex">
+                  <img src={!!section1.image.childImageSharp ? section1.image.childImageSharp.fluid.src : section1.image} className="main-ilustration"></img>
+                </Col>
+
               </Row>
               <Row>
-              <Col xl={6} lg={6} md={6} sm={12} className="justify-content-center d-flex">
+              <Col xl={6} lg={6} md={6} sm={12} className="mt-auto mb-auto justify-content-center d-flex">
                   <div className="article-thumbnail">
                     <h1 className="secondary-heading">
                       {section2.title}
@@ -58,15 +59,12 @@ export const BooklaPageTemplate = ({
                     <button className="article-button">Chci zjistit jak</button>
                   </div>
                 </Col>
-              <Col xl={6} lg={6} md={6} sm={12}>
+              <Col xl={6} lg={6} md={6} sm={12} className="mt-auto mb-auto justify-content-center d-flex">
                   <img src={!!section2.image.childImageSharp ? section2.image.childImageSharp.fluid.src : section2.image} className="main-ilustration"></img>
               </Col>
               </Row>
               <Row>
-              <Col xl={6} lg={6} md={6} sm={12} className="order-sm-12 order-lg-1">
-                  <img src={!!section3.image.childImageSharp ? section3.image.childImageSharp.fluid.src : section3.image} className="main-ilustration"></img>
-              </Col>
-              <Col xl={6} lg={6} md={6} sm={12} className="order-sm-1 order-lg-12 justify-content-center d-flex">
+              <Col xl={6} lg={6} md={6} sm={12} className="order-sm-1 order-xs-1 order-md-1 order-lg-12 mt-auto mb-auto justify-content-center d-flex">
                   <div className="article-thumbnail">
                     <h1 className="secondary-heading">
                       {section3.title}
@@ -77,6 +75,10 @@ export const BooklaPageTemplate = ({
                     <button className="article-button">Chci zjistit jak</button>
                   </div>
                 </Col>
+              <Col xl={6} lg={6} md={6} sm={12} className="order-sm-12 order-xs-12 order-md-12 order-lg-1 mt-auto mb-auto justify-content-center d-flex">
+                  <img src={!!section3.image.childImageSharp ? section3.image.childImageSharp.fluid.src : section3.image} className="main-ilustration"></img>
+              </Col>
+              
               </Row>
               
             </Container>
