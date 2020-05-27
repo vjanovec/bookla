@@ -1,11 +1,15 @@
-import React from 'react'
-import Layout from '../components/Layout'
+import React from 'react';
+import Layout from '../components/Layout';
+import { Link } from 'gatsby';
 
 const NotFoundPage = () => (
   <Layout>
-    <div>
-      <h1>NOT FOUND</h1>
-      <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <div className='d-flex justify-content-center'>
+    <div style={{marginLeft: 'auto', marginRight: 'auto', marginTop: '3rem'}}>
+      <h3>STRÁNKA NENALEZENA</h3>
+      <p>Tato adresa neexistuje. Vraťte se na <Link to='/' style={{color: '#f28e31'}}>úvodní stránku</Link></p>
+      <img src="/img/udiv.png" style={{maxWidth: '200px', margin: '1rem auto 1rem auto'}} alt=''></img>
+    </div>
     </div>
   </Layout>
 )

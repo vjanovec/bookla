@@ -49,7 +49,7 @@ class BlogRoll extends React.Component {
       <Fragment>
         {posts &&
           posts.map(({ node: post }) => (
-            <Link to={post.fields.slug}>
+            <Link to={post.fields.slug} style={{textDecoration: 'none'}}>
             <div class="blog-thumbnail" key={post.id}>
                 <h2 className="blog-thumbnail-title">
                 {post.frontmatter.title}

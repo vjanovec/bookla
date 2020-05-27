@@ -6,28 +6,19 @@ heading: Jak na to?
 section1:
   title: Napište
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse nisl. Maecenas aliquet accumsan leo. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Suspendisse nisl
   image: /img/pisalek_novy.png
   alt: Random alt
 section2:
   title: Vydejte
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse nisl. Maecenas aliquet accumsan leo. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Suspendisse nisl
   image: /img/milovnik-knih.png
   alt: Random alt
 
 section3:
   title: Prodávejte
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse nisl. Maecenas aliquet accumsan leo. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Suspendisse nisl
   image: /img/marketing.png
   alt: Random alt

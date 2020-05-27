@@ -4,13 +4,14 @@ import "./style.scss";
 import React from 'react';
 import { Link } from 'gatsby';
 
+
 const Header = () => {
     return(
     <header className="header">
           <Navbar collapseOnSelect expand="sm">
-            <Navbar.Brand href="#home" className="ml-4">
+            <Link to="/"><Navbar.Brand className="ml-4">
               <img src={logo} className="navbar-logo"></img>
-            </Navbar.Brand>
+            </Navbar.Brand></Link> 
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="ml-auto mr-5">
