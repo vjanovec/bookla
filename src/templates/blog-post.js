@@ -17,13 +17,13 @@ export const BlogPostTemplate = ({
   const PostContent = contentComponent || Content
 
   return (
-    <section>
+    <section style={{padding: '5vw'}}>
       {helmet || ''}
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
             <p>{description}</p>
-            <PostContent content={content}/>
+            <PostContent content={content} style={{maxWidth: '90%'}}/>
     </section>
   )
 }

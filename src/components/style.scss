@@ -5,6 +5,7 @@
   background-color: #fafafa;
   width: 100%;
   height: 100%;
+  min-height: 100vh;
   overflow-x: hidden;
 }
 
@@ -55,7 +56,10 @@
 }
 .navbar-logo {
   height: 4rem;
-  margin: auto 0;
+  max-width:17.5rem;
+  max-height:4rem;
+  width: auto;
+  height: auto;
 }
 .navbar-light .navbar-toggler {
   border: none;
@@ -110,8 +114,10 @@
 }
 
 .article-thumbnail {
-  padding: 3rem;
-
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   // background-color: #fff;
 }
 
@@ -140,14 +146,14 @@
   font-size: 16px;
   background-color: #f28e31;
   padding: 0.5rem;
-  width: 60%;
+  width: 50%;
   text-decoration: none;
   font-family: "Hind Vadodara", sans-serif;
   font-weight: bold;
   border: none;
   color: #fff !important;
   border-radius: 10px;
-  margin: 2rem 20%;
+  margin: 0 auto;
   :hover {
     color: #fff;
     text-decoration: none;
@@ -202,7 +208,9 @@ footer.footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-content: center;
+  
+  align-items: center;
+  
 }
 .footer-copyright {
   padding: 1rem;
@@ -218,11 +226,13 @@ footer.footer {
   padding: 0.5rem;
   margin: auto;
 }
-
 a {
   color: #f28e31;
 }
 a:hover {
   color: #f28e31;
   text-decoration: underline;
+}
+img {
+  max-width: 100%;
 }

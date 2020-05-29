@@ -7,7 +7,7 @@ import { Link } from "gatsby";
 const Footer = () => {
     return(
         <footer className="footer">
-        <Link to='/'><img src='/img/logo_bookla.png' className="navbar-logo ml-4"></img></Link>
+        <Link to='/' className='ml-4'><img src='/img/logo_bookla.png' className="navbar-logo"></img></Link>
         <p className="footer-copyright">Copyright ©  2020  Powerprint & Bookla</p>
         <div class="social-links ml-sm-1 ml-xs-1 ml-md-4">
           <Container fluid>
