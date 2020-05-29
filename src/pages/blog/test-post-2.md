@@ -17,7 +17,7 @@ Test Engineers are a part of Google’s Engineering Productivity (EngProd) Group
 \
 In short, it’sCOOL(Constant learner,Out-of-the-box thinker,Orchestrator,Leading-edge user) to be a Test Engineer at Google:
 
-![malonaklad](/img/malonaklad.png "malonaklad")
+
 
 \
 \
@@ -27,7 +27,7 @@ Constant learning is what keeps Google Test Engineers motivated. We understand h
 
 Out-of-the-box thinking, a result of constant learning, is another thing that keeps us motivated. As Google Test Engineers, we champion Engineering excellence by providing optimized solutions to address engineering inefficiencies, testing gaps, and process gaps. We constantly think of ways to make machines do the work to increase testability and productivity. Hundreds and thousands of lines of code get checked-in every minute at Google. To maintain velocity, quality, and code health, we devise creative ways to test and debug the test failures -- like performing diff testing, building dynamic test cases from the logs, designing heuristic algorithms to identify culprits for test failures, building solutions to reduce the test run time, and implementing stubs, fakes, and mock objects and servers to help developers write stable unit and integration testing. Along with devising creative ways to test and debug the test failures, we also focus on improving engineering excellence and product excellence by defining and measuring productivity metrics and product health metrics like quality, stability, and performance. The testing of, for example, Search, Ads, Maps, YouTube, Cloud, self-driving cars, and Google Apps would not have scaled with traditional testing practices.
 
-![samonakladatel](/img/samonakladatel.png "samonakladatel")
+
 
 Orchestrating the testing efforts is a key responsibility of Google Test Engineers. As orchestrators we can collaborate with cross functional teams including Product Managers, Technical Program Managers, and Software engineers to define critical user journeys (CUJs), determine testing strategies, and ensure that the right tests are run on the right configurations/environments. With our strong communication and collaboration skills, we work with the cross-functional teams and play the role of evangelists in spreading the word on new tools, technologies, and best testing practices. We also have the opportunity to host Hackathons and Fixits, host interns, drive college recruiting events, engage with the open source community in testing the open source products, listen to feedback, and convert that feedback into product improvements.
 

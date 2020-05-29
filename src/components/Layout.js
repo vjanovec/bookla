@@ -2,7 +2,6 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import "./all.sass";
 import "./style.scss";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
@@ -49,6 +48,7 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix("/")}img/og-image.jpg`}
         />
         <script src="https://kit.fontawesome.com/de2b97e9cc.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       </Helmet>
 
       <div className="page">

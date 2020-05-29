@@ -1,5 +1,5 @@
 import { Nav, Navbar } from "react-bootstrap";
-import logo from "./logo_bookla.png";
+import logo from "/img/logo_bookla.png";
 import "./style.scss";
 import React from 'react';
 import { Link } from 'gatsby';
@@ -25,7 +25,7 @@ const Header = () => {
                   <Link to="/kontakty" className='link'>Kontakty</Link>
                 </Nav.Link>
                 <Nav.Link className="nav-link-text pl-4 pr-4">
-                  <a href="//www.bookla.cz/" className='link'>Zjistit více</a>
+                  <a href='https://www.bookla.cz/'>Zjistit více</a>
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>

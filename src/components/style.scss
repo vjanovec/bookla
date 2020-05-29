@@ -10,6 +10,7 @@
 
 .wrapper {
   width: 1200px;
+  overflow-x: hidden;
 }
 .header {
   width: 100%;
@@ -216,4 +217,12 @@ footer.footer {
   font-size: 1.5rem;
   padding: 0.5rem;
   margin: auto;
+}
+
+a {
+  color: #f28e31;
+}
+a:hover {
+  color: #f28e31;
+  text-decoration: underline;
 }
