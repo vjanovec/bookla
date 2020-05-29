@@ -1,4 +1,4 @@
-import logo from "/img/logo_bookla.png";
+
 import "./style.scss";
 import React from 'react';
 import { Container } from "react-bootstrap";
@@ -7,7 +7,7 @@ import { Link } from "gatsby";
 const Footer = () => {
     return(
         <footer className="footer">
-        <Link to='/'><img src={logo} className="navbar-logo ml-4"></img></Link>
+        <Link to='/'><img src='/img/logo_bookla.png' className="navbar-logo ml-4"></img></Link>
         <p className="footer-copyright">Copyright ©  2020  Powerprint & Bookla</p>
         <div class="social-links ml-sm-1 ml-xs-1 ml-md-4">
           <Container fluid>

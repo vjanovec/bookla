@@ -1,5 +1,4 @@
 import { Nav, Navbar } from "react-bootstrap";
-import logo from "/img/logo_bookla.png";
 import "./style.scss";
 import React from 'react';
 import { Link } from 'gatsby';
@@ -10,7 +9,7 @@ const Header = () => {
     <header className="header">
           <Navbar collapseOnSelect expand="sm">
             <Link to="/"><Navbar.Brand className="ml-4">
-              <img src={logo} className="navbar-logo"></img>
+              <img src='/img/logo_bookla.png' className="navbar-logo"></img>
             </Navbar.Brand></Link> 
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
