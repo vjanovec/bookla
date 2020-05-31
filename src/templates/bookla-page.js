@@ -29,7 +29,7 @@ export const BooklaPageTemplate = ({
                   </div>
                 </Col>
                 <Col xl={6} lg={6} md={6} sm={12} className="mt-auto mb-auto justify-content-center d-flex">
-                  <img src={!!image.childImageSharp ? image.childImageSharp.fluid.src : image} className="main-ilustration"></img>
+                  <img src={!!image.childImageSharp ? image.childImageSharp.fluid.src : image} className="main-illustration"></img>
                 </Col>
               </Row>
               <h3 className="secondary-heading mb-5">{heading}</h3>
@@ -49,7 +49,7 @@ export const BooklaPageTemplate = ({
                   </div>
                 </Col>
               <Col xl={6} lg={6} md={6} sm={12} className="order-sm-12 order-xs-12 order-lg-1 mt-auto mb-auto justify-content-center d-flex">
-                  <img src={!!section1.image.childImageSharp ? section1.image.childImageSharp.fluid.src : section1.image} className="main-ilustration"></img>
+                  <img src={!!section1.image.childImageSharp ? section1.image.childImageSharp.fluid.src : section1.image} className="main-illustration"></img>
                 </Col>
 
               </Row>
@@ -69,7 +69,7 @@ export const BooklaPageTemplate = ({
                   </div>
                 </Col>
               <Col xl={6} lg={6} md={6} sm={12} className="mt-auto mb-auto justify-content-center d-flex">
-                  <img src={!!section2.image.childImageSharp ? section2.image.childImageSharp.fluid.src : section2.image} className="main-ilustration"></img>
+                  <img src={!!section2.image.childImageSharp ? section2.image.childImageSharp.fluid.src : section2.image} className="main-illustration"></img>
               </Col>
               </Row>
               <Row>
@@ -87,7 +87,7 @@ export const BooklaPageTemplate = ({
                   </div>
                 </Col>
               <Col xl={6} lg={6} md={6} sm={12} className="order-sm-12 order-xs-12 order-md-12 order-lg-1 mt-auto mb-auto justify-content-center d-flex">
-                  <img src={!!section3.image.childImageSharp ? section3.image.childImageSharp.fluid.src : section3.image} className="main-ilustration"></img>
+                  <img src={!!section3.image.childImageSharp ? section3.image.childImageSharp.fluid.src : section3.image} className="main-illustration"></img>
               </Col>
               
               </Row>
