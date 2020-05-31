@@ -5,11 +5,12 @@ import Navbar from "../components/Navbar";
 import "./style.scss";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
+import {getCLS, getFID, getLCP} from 'web-vitals';
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
 
-  import {getCLS, getFID, getLCP} from 'web-vitals';
+  
 
 function sendToAnalytics(metric) {
   const body = JSON.stringify(metric);
